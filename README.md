@@ -2,7 +2,7 @@
 ## Basic Amazon SageMaker workshop
 Please browse to "01 Creating a Managed Notebook Instance" to get started!
 
-Modules:
+**Modules:**
 
 #1: Create an Amazon SageMaker notebook to work with this lab
 
