@@ -43,7 +43,7 @@ An **Amazon SageMaker notebook instance** is a fully managed ML compute instance
 	1. Give the Notebook Instance a name like _**[username]**-nb-instance_
 
 	2. Choose **ml.t3.medium** as **Notebook instance type**
-	3. Choose the available **IAM role** (named AmazonSageMaker-ExecutionRole-XXXXX) from the dropdown list. Notebook instances require permissions to call other services including Amazon SageMaker and Amazon S3 APIs. For the purpose of this workshop, the IAM role has been pre-configured, which is very likely to happen when the notebook instance is provisioned by another team in your organization.
+	3. Create a new **IAM role**. Notebook instances require permissions to call other services including Amazon SageMaker and Amazon S3 APIs. For the purpose of this workshop, a new IAM role will be created and you should take note of the name.
 	4. Keep **No VPC** selected in the **VPC** dropdown list
 	5. Keep **No configuration** selected in the **Lifecycle configuration** dropdown list
 	6. Keep **No Custom Encryption** selected in the **Encryption key** dropdown list
