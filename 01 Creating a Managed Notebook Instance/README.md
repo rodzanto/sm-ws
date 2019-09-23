@@ -14,7 +14,7 @@ In this section, we will create an Amazon S3 bucket to be used as the storage se
 3. Open the **Amazon S3** console at <a href="https://console.aws.amazon.com/s3">https://console.aws.amazon.com/s3</a> or choose the Amazon S3 service in the menu.
 4.	In the Amazon S3 console, click the **Create Bucket** button.
 	![Amazon S3 create bucket](images/create_bucket.png)
-5.	For the **Bucket Name**, type _**[username]**-sm-workshop-lux_ in the text box and click Next (take note of the bucket name, as it will be needed for next workshop activities). Press **Next** to move to the next screen.
+5.	For the **Bucket Name**, type _**[username]**-sm-workshop_ in the text box and click Next (take note of the bucket name, as it will be needed for next workshop activities). Press **Next** to move to the next screen.
 Note: if the bucket name is already taken, feel free to add an extra prefix.
 
 	![Amazon S3 create bucket window](images/create_bucket_window.png)
@@ -74,10 +74,10 @@ In this section we will clone the GitHub repository into the Amazon SageMaker no
 
 	```bash
 	cd SageMaker
-	git clone https://github.com/giuseppeporcelli/sm-ws-lux
+	git clone https://github.com/rodzanto/sm-ws
 	```
 3. When the clone operation completes, close the terminal window and return to the Jupyter landing page. The folder **sm-ws-lux** will appear automatically (if not, you can hit the **Refresh** button)
 
 	![Amazon SageMaker](images/sm_9.png)
 	
-4. Browse to the folder **sm-ws-lux** and move to the second lab.
+4. Browse to the folder **sm-ws** and move to the second lab.
